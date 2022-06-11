@@ -7,7 +7,7 @@ export default class Navigation extends Component {
         <h2>Work With Me</h2>
       <nav>
         <a href='https://github.com/iiAnti'>github</a> 
-        <br></br>
+        <b/>
          <a href='https://www.linkedin.com/in/ivanocreates/' >Linkedin</a>
       </nav>
     </>
