@@ -6,7 +6,7 @@ export default class App extends Component {
   constructor(props){
     super(props)
     this.state = {
-      welcome:["Welcome to my page","What brings you here?","Were yo looking for me?", "Maybe I've been looking for you","THIS IS ME"],
+      welcome:["Welcome to my page","What brings you here?","Were yo looking for me?", "Maybe I've been looking for you"],
       count: 0
     }
   }
@@ -23,12 +23,12 @@ export default class App extends Component {
       <>
       
       <div>
-        <div className='head'>
+        <div className='head' onMouseOver={this.handleChange} >
         <Heading 
         heading = {this.state.welcome}
         counter = {this.state.count}
         />
-        <button  onClick={this.handleChange}>hover</button>
+        {/* <button  onClick={this.handleChange}>hover</button> */}
         </div>
         <Navigation/>
        </div>
