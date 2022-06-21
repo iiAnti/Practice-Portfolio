@@ -1,13 +1,20 @@
-import React, { Component } from 'react'
-import { Container } from '@material-ui/core'
-import Toolbar from '@material-ui/core/Toolbar'
-import Typical from 'react-typical'
+import React, { Component }      from 'react'
+import { Container, Typography } from '@material-ui/core'
+import Toolbar                   from '@material-ui/core/Toolbar'
+import Box                       from '@material-ui/core/Box'
+import Link                      from '@material-ui/core/Link'
+
+import Typical                   from 'react-typical'
+
 
 export default class Navigation extends Component {
+  
   render() {
+    // const classes = useStyles()
     return (
     <>
-        <h2>I {' '}
+    
+        {/* <h2>I {' '}
           <Typical
             loop={Infinity}
             wrapper="b"
@@ -25,16 +32,28 @@ export default class Navigation extends Component {
           />
 
 
-        </h2>
-        <Container>
-          <Toolbar>
-          <nav>
-        <a href='https://github.com/iiAnti'>github</a> 
-        <b/>
-         <a href='https://www.linkedin.com/in/ivanocreates/' >Linkedin</a>
-      </nav>
-      </Toolbar>
-      </Container>
+        </h2> */}
+
+
+  <Container>
+    <Toolbar>
+      <Typography>
+         Known as iif
+      </Typography>
+      <Box>{[
+       'github', 'linkdin', 'linktree', 'spotify'
+        ].map((menuOption) => (
+          <Link
+          id='menuOp'
+          component='button'
+          variant='body1'>
+            {menuOption.toUpperCase()}
+          </Link>
+        ))}
+        
+      </Box>
+    </Toolbar>
+  </Container>
     </>
     )
   }
