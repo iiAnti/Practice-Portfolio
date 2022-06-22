@@ -4,11 +4,15 @@ export default class Mid extends Component {
   render() {
     return (
       <div class='start'>
+        <div id ='head2'>
             <h2>The Start</h2>
                   <p class='sep'>
                         I started out as a young guy who only knew hard work and payment. I've always liked coding, but never actually thought it could be a possibility for me to follow a career in it. In all honesty the main pursuite came when I was a show called "Mr.Robot". Sounds cringy, I know. It actually pushed me to pursue coding. On top of that I produce music and game. I believe having the skills of a Dev., music producer, and even gaming will help me all around.
 
                   </p>
+                  </div>
+
+                  <div class='second'>
              <h2>Personal Skills</h2>     
                   <table>
                         <tr>
@@ -38,6 +42,7 @@ export default class Mid extends Component {
                         </tr>
                         
                   </table>
+                  </div>
 
       </div>
       

@@ -4,7 +4,11 @@ export default class Footer extends Component {
   render() {
     return (
         <footer>
-             <a href="#top">Back to top</a>
+
+
+          <div id='take'>
+             <a id='bottom' href="#top">Back to top</a>
+             </div>
                 <br/>
                 <br/>
                 <div id='foot'>

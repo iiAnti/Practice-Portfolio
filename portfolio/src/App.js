@@ -28,7 +28,7 @@ export default class App extends Component {
     return (
       <>
       
-      <div>
+      
         <div className='head' id='top' onMouseOver={this.handleChange} >
         <Heading 
         heading = {this.state.welcome}
@@ -46,7 +46,7 @@ export default class App extends Component {
         <br/>
         <Footer />
         </div>
-       </div>
+       
       </>
     )
   }
