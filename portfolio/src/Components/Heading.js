@@ -6,7 +6,7 @@ export default class Heading extends Component {
   render() {
     return (
       <>
-      <h1>{`${this.props.heading[this.props.counter]}`}</h1>
+      <h1 class='heading'>{`${this.props.heading[this.props.counter]}`}</h1>
       </>
     )
   }

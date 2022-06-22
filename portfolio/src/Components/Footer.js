@@ -3,7 +3,14 @@ import React, { Component } from 'react'
 export default class Footer extends Component {
   render() {
     return (
-      <div>Fdlkfgha;lshglsdhfglsj';dfjg';sjdf gs'ld jfg'lsj d'fgj s'dj fg';ls ';d</div>
+        <footer>
+             <a href="#top">Back to top</a>
+                <br/>
+                <br/>
+                <div id='foot'>
+             &trade; iif Productions | &copy; All Rights Resereved 2022 
+             </div>
+        </footer>
     )
   }
 }

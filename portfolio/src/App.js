@@ -29,7 +29,7 @@ export default class App extends Component {
       <>
       
       <div>
-        <div className='head' onMouseOver={this.handleChange} >
+        <div className='head' id='top' onMouseOver={this.handleChange} >
         <Heading 
         heading = {this.state.welcome}
         counter = {this.state.count}
@@ -38,11 +38,14 @@ export default class App extends Component {
         </div>
         {/* <Load end={this.end}/> */}
         <Navigation/>
+        <div id='seperate'>
         <Mid />
         <Bio />
         <Skills />
+        <br/>
+        <br/>
         <Footer />
-
+        </div>
        </div>
       </>
     )

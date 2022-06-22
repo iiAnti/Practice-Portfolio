@@ -1,8 +1,8 @@
 import React, { Component }      from 'react'
 import { Container, Typography } from '@material-ui/core'
-import Toolbar                   from '@material-ui/core/Toolbar'
-import Box                       from '@material-ui/core/Box'
-import Link                      from '@material-ui/core/Link'
+// import Toolbar                   from '@material-ui/core/Toolbar'
+// import Box                       from '@material-ui/core/Box'
+// import Link                      from '@material-ui/core/Link'
 
 import Typical                   from 'react-typical'
 
@@ -13,37 +13,37 @@ export default class Navigation extends Component {
     // const classes = useStyles()
     return (
     <>
-    
-        {/* <h2>I {' '}
+    <div class='who'>
+        <h4>I {' '}
           <Typical
             loop={Infinity}
             wrapper="b"
             steps={[
               'Produce Music',
-              1500,
+              2500,
               'Am A Full Stack Dev.', 
-              1500,
+              2500,
               'Am Great at "Hacking"', 
-              1500,
+              2500,
               'Love You For Givning Me A Chance', 
-              1500,
+              2500,
             ]}
           
           />
 
 
-        </h2> */}
+        </h4>
+        </div>
 
 
-      <Typography>
-         Known as iif
-      </Typography>
-      <nav>
-        <a href=''>github</a>
-        <a href=''>Linktree</a>
-        <a href=''>Linkdin</a>
-        <a href=''>something</a>
-
+      
+      <nav id='stick'>
+        <div>
+          <a class='side' href='https://github.com/iiAnti'>Github</a>
+          <a class='side' href='https://linktr.ee/iif_music'>Linktree</a>
+          <a class='side' href='https://www.linkedin.com/in/ivanocreates/'>Linkedin</a>
+          <a class='side'  href='#top'>To top</a>
+        </div>
       </nav>
        
         
