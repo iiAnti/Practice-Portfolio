@@ -35,25 +35,19 @@ export default class Navigation extends Component {
         </h2> */}
 
 
-  <Container>
-    <Toolbar>
       <Typography>
          Known as iif
       </Typography>
-      <Box>{[
-       'github', 'linkdin', 'linktree', 'spotify'
-        ].map((menuOption) => (
-          <Link
-          id='menuOp'
-          component='button'
-          variant='body1'>
-            {menuOption.toUpperCase()}
-          </Link>
-        ))}
+      <nav>
+        <a href=''>github</a>
+        <a href=''>Linktree</a>
+        <a href=''>Linkdin</a>
+        <a href=''>something</a>
+
+      </nav>
+       
         
-      </Box>
-    </Toolbar>
-  </Container>
+    
     </>
     )
   }

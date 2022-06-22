@@ -1,8 +1,13 @@
 import React, { Component } from 'react'
 import Heading from './Components/Heading'
 import Navigation from './Components/Navigation'
-
-
+import Mid from './Components/Mid'
+import Bio from './Components/Bio'
+import Skills from './Components/Skills'
+import Footer from './Components/Footer'
+import 'bootstrap/dist/css/bootstrap.css'
+import './App.css'
+// import Load from './Components/Load'
 
 export default class App extends Component {
   constructor(props){
@@ -18,8 +23,7 @@ export default class App extends Component {
     
       this.setState({count: changHead})
   }
-
-
+ 
   render() {
     return (
       <>
@@ -32,7 +36,13 @@ export default class App extends Component {
         />
         {/* <button  onClick={this.handleChange}>hover</button> */}
         </div>
+        {/* <Load end={this.end}/> */}
         <Navigation/>
+        <Mid />
+        <Bio />
+        <Skills />
+        <Footer />
+
        </div>
       </>
     )
