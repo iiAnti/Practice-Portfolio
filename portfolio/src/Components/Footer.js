@@ -6,7 +6,7 @@ export default class Footer extends Component {
         <footer>
 
 
-          <div id='take'>
+          <div id='a'>
              <a id='bottom' href="#top">Back to top</a>
              </div>
                 <br/>

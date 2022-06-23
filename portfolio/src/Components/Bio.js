@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 export default class Bio extends Component {
   render() {
     return (
-      <div>
+      <div class= 'bio'>
 
-<img src="./img/me.jpg" alt='Picture of me'/>
+{/* <img src="./img/green.jpg" alt='Picture of me'/> */}
       </div>
     )
   }

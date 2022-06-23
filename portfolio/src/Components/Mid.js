@@ -12,7 +12,7 @@ export default class Mid extends Component {
                   </p>
                   </div>
 
-                  <div class='second'>
+                  <div class='table'>
              <h2>Personal Skills</h2>     
                   <table>
                         <tr>
